@@ -26,6 +26,11 @@ public:
         newNode->data = value;      // 2. Set the data of the new node
         newNode->next = top;        // 3. Set the next pointer of the new node to the current top
         top = newNode;              // 4. Update the top pointer to point to the new node
+        cout << "Pushed value : " << value << endl;
+        return value; 
+    }
+
+    // IsEmpty operation: check if the stack is empty
 
   
 
