@@ -37,6 +37,10 @@ public:
 
     // Pop operation: remove and return the top element of the stack
     void pop(){
+        if (isEmpty()) {
+            cout << "Stack is empty." << endl;
+            return;// Update the top pointer to the next node
+        }
         
   
 
