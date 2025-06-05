@@ -68,6 +68,10 @@ int main (){
     int choice = 0;
     int value;
 
+    while (choice !=4){
+        cout << " 1. Push\n 2. Pop\n 3. Peek\n 4. Exit\n";
+        cout << "Enter your choice: ";
+        cin >> choice;
 
             
            
